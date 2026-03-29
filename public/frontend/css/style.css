@@ -1,0 +1,375 @@
+body {
+    background-color: #e6f3ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #1e3a8a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.tagline {
+    text-align: center;
+    color: #3b82f6;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #555;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 12px 16px;
+    border: 2px solid #dbeafe;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form-group input::placeholder {
+    color: #94a3b8;
+}
+
+.reservation-details {
+    background-color: #f0f9ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 4px solid #3b82f6;
+}
+
+.reservation-details p {
+    margin-bottom: 10px;
+    color: #475569;
+}
+
+.reservation-details strong {
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+.success-message {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f0f9ff;
+    border: 2px solid #3b82f6;
+    border-radius: 8px;
+}
+
+.success-message h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+.registration-details {
+    background-color: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 4px solid #3b82f6;
+}
+
+.registration-details h3 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.member-info {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #dbeafe;
+}
+
+.member-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #475569;
+}
+
+.member-info strong {
+    color: #1e3a8a;
+    font-weight: 600;
+    min-width: 100px;
+    display: inline-block;
+}
+
+.registration-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.registration-details li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+    color: #475569;
+}
+
+.registration-details li:last-child {
+    border-bottom: none;
+}
+
+.form-hint {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: -4px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    color: white;
+    flex: 1;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.btn-secondary {
+    background-color: #64748b;
+    color: white;
+    flex: 1;
+}
+
+.btn-secondary:hover {
+    background-color: #475569;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(100, 116, 139, 0.3);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.btn-outline:hover {
+    background-color: #3b82f6;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 30px 20px;
+    }
+    
+    .form-actions {
+        flex-direction: column;
+    }
+    
+    .navigation-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+.form-section {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.text-danger {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 4px;
+    display: block;
+}
+
+/* Header and Footer Styling */
+.site-header {
+    background: skyblue;
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+    display: block !important;
+    position: relative;
+    z-index: 10;
+    border: 3px solid #1e40af;
+}
+
+.site-header .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header h1 {
+    color: blue !important;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.site-header .tagline {
+    text-align: center;
+    color: blue !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.site-footer {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.site-footer .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main {
+    min-height: calc(100vh - 200px);
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-btn {
+    color: #1e40af;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+}
+
