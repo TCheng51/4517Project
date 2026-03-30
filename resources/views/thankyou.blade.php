@@ -16,7 +16,7 @@
 </div>
 
 <div class="navigation-buttons">
-    <a href="{{ route('home') }}" class="btn btn-primary">← Back to Home</a>
+    <a href="{{ route('index') }}" class="btn btn-primary">← Back to Home</a>
 </div>
 </div>
 @endsection
