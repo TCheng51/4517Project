@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MemberController;
 
-Route::get('/', [MemberController::class, 'home'])->name('home');
+Route::get('/', [MemberController::class, 'index'])->name('index');
 
 
 Route::get('/register', [MemberController::class, 'create'])->name('register');
@@ -24,6 +24,3 @@ Route::post('/logout', [MemberController::class, 'logout'])->name('logout');
 Route::get('/thankyou', function () {
     return view('thankyou');
 })->name('thankyou');
-
-
-

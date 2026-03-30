@@ -11,9 +11,14 @@ use Illuminate\Validation\Rules\Password;
 
 class MemberController extends Controller
 {
+    public function index()
+    {
+        return view('index');
+    }
+
     public function home()
     {
-        return view('home');
+        return view('index');
     }
 
     public function create()
