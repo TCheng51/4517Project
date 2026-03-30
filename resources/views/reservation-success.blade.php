@@ -37,7 +37,7 @@
 
 <div class="navigation-buttons">
     <a href="{{ route('reservation') }}" class="btn btn-primary">Make Another Reservation</a>
-    <a href="{{ route('index') }}" class="btn btn-outline">← Back to Home</a>
+    <a href="{{ route('home') }}" class="btn btn-outline">← Back to Home</a>
 </div>
 </div>
 @endsection

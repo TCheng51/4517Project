@@ -28,7 +28,7 @@
 </form>
 
 <div class="navigation-buttons">
-    <a href="{{ route('home') }}" class="btn btn-outline">← Back to Introduction</a>
+    <a href="{{ route('index') }}" class="btn btn-outline">← Back to Introduction</a>
 </div>
 </div>
 @endsection

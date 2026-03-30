@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MemberController;
 
-Route::get('/', [MemberController::class, 'index'])->name('index');
-
+Route::get('/', [MemberController::class, 'home'])->name('home');
+Route::get('/home', [MemberController::class, 'home']);
 
 Route::get('/register', [MemberController::class, 'create'])->name('register');
 Route::post('/register', [MemberController::class, 'store'])->name('register.store');
