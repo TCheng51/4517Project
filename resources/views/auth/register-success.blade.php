@@ -25,7 +25,7 @@
 
 <div class="navigation-buttons">
     <a href="{{ route('login') }}" class="btn btn-primary">Login Now</a>
-    <a href="{{ route('index') }}" class="btn btn-outline">← Back to Home</a>
+    <a href="{{ route('home') }}" class="btn btn-outline">← Back to Home</a>
 </div>
 </div>
 @endsection

@@ -39,7 +39,7 @@
         
         <div class="navigation-buttons">
             <a href="{{ route('reservation') }}" class="btn btn-outline">← Back to Reservation Form</a>
-            <a href="{{ route('index') }}" class="btn btn-outline">Back to Home</a>
+            <a href="{{ route('home') }}" class="btn btn-outline">Back to Home</a>
         </div>
     </div>
 </div>

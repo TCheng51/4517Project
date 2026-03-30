@@ -16,7 +16,7 @@
     </center>
 </section>
 
-<div class="navigation-buttons">
+<div class="navigation-buttons" style="margin-top: 2rem;">
     <a href="{{ route('register') }}" class="btn btn-primary">Member Registration</a>
     <a href="{{ route('login') }}" class="btn btn-outline">Login to Reserve</a>
 </div>

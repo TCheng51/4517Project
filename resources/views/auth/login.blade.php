@@ -8,18 +8,22 @@
     @csrf
     <div class="form-group">
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required placeholder="your.email@example.com" value="{{ old('email') }}">
-        @error('email')
+        <div class="input-wrapper">
+            <input type="email" id="email" name="email" required placeholder="your.email@example.com" value="{{ old('email') }}">
+            @error('email')
             <small class="text-danger">{{ $message }}</small>
-        @enderror
+            @enderror
+        </div>
     </div>
 
     <div class="form-group">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" required placeholder="Enter your password">
-        @error('password')
+        <div class="input-wrapper">
+            <input type="password" id="password" name="password" required placeholder="Enter your password">
+            @error('password')
             <small class="text-danger">{{ $message }}</small>
-        @enderror
+            @enderror
+        </div>
     </div>
 
     <div class="form-actions">
@@ -28,7 +32,7 @@
 </form>
 
 <div class="navigation-buttons">
-    <a href="{{ route('index') }}" class="btn btn-outline">← Back to Introduction</a>
+    <a href="{{ route('home') }}" class="btn btn-outline">← Back to Introduction</a>
 </div>
 </div>
 @endsection
